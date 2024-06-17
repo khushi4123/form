@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(rgba(4,2,10,0.2),rgba(4,2,10,0.2)),url("image2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 6%;
+}   
+.cantain{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 50%;
+    margin: auto;
+    padding:4%;
+}
+input{
+   width: 25em;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2%;
+    font-size: 16px;
+}
+input::placeholder{
+    color: black;
+}
+td{
+    
+    padding:2%;
+}
+h3{
+    font-size: 24px;
+}
+select{
+    padding:2%;
+    border-radius: 10px;
+    width: 26.5em;
+    margin: 2% 0% 2% 2%;
+    font-size: 16px;
+}
+
+select:hover{
+    background-color: rgb(230, 229, 229);
+}
+input:hover{
+    background-color: rgb(230, 229, 229);
+}
+button
+{
+    width: 5em;
+    padding:8px;
+    margin-left: 37%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(220, 49, 49);
+    font-size: 16px;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+}
+/* Mobile */
+@media  screen and (max-width:320px)
+ {
+    body{
+    
+        padding-top: 10%;
+        width:30%;
+        background-position: center;
+        height: 35vh;
+    }
+    input{
+        width:16em;
+    }
+    .cantain{
+        position: sticky;
+       margin-left: 8em;
+        width:10%;
+    }
+    select{
+        width:17em;
+    }
+    form{
+        padding:20px;
+    }
+    button{
+        margin-top: 30px;
+    }
+}

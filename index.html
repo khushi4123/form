@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cantain">
+
+        <form onsubmit="data()">
+
+                 <h3>Frist Name</h3> <input type="text" id="n1" maxlength="5" placeholder="Enter First name">
+                 <h3>Last Name</h3> <input type="text" id="n2" maxlength="5" placeholder="Enter Last name">
+            
+                 <h3>Email</h3> <input type="email" id="n3" placeholder="Enter email"> 
+                 <h3> Phone number </h3> <input type="text" id="n4" placeholder="Enter phone number">
+                 <h3> Birth Date</h3> <input type="date" id="n5" placeholder="Enter another number">
+            
+                    <h3>Blood Group</h3>   
+                    <select id="n6">
+                        <option>Select Blood group</option>
+                        <option>A-</option>
+                        <option>A+</option>
+                        <option>B-</option>
+                        <option>B+</option>
+                        <option>AB-</option>
+                        <option>AB+</option>
+                        <option>O-</option>
+                        <option>O+</option>
+                    </select>
+                    <h3>Password</h3> <input type="password" id="n7" placeholder=" password"> 
+                    <h3>Confirm password</h3> <input type="password" id="n8" placeholder="Confirm password" >
+                
+                    <button onclick="cal()" >Submit</button>
+            
+                    
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
